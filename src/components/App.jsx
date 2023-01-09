@@ -1,10 +1,10 @@
-import Profile from "./Profile/Profile";
+import Profile from 'components/Profile/Profile';
 
 import StatBoard from 'components/Statistics/StatBoard'
 import Friends from 'components/FriendList/Friends';
 import Transactions from 'components/TransactionHistory/Transaction';
 import user from 'components/DataObjects/user'
-import data from 'components/DataObjects/data';
+import data from 'components/DataObjects/data.json';
 import friends from 'components/DataObjects/friends';
 import transactions from 'components/DataObjects/transactions';
 import css from './App.module.css';
