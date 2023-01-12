@@ -7,13 +7,13 @@ import css from './Statistics.module.css';
 
 function Statistic( { id, label, percentage } ) {
     console.log(label);
-    console.log(css[label]);
+    console.log(css[label.slice(1)]);
     return (
  
 
 
 
-     <li className={`${css.id} ${css[label]}`}  key={id}>
+     <li className={`${css.id} ${css[label.slice(1)]}`}  key={id}>
             <span className={css.labelText}>{label}</span>
            <span className={css.percentage}>{percentage} %</span>
       </li>
