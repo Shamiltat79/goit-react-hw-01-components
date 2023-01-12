@@ -14,7 +14,7 @@ function Statistic( { id, label, percentage } ) {
 
 
      <li className={`${css.id} ${css[label]}`}  key={id}>
-            <span className={css.label}>{label}</span>
+            <span className={css.labelText}>{label}</span>
            <span className={css.percentage}>{percentage} %</span>
       </li>
      
