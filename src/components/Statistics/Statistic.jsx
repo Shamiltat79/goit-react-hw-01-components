@@ -4,6 +4,7 @@ import css from './Statistics.module.css';
 
 
 
+
 function Statistic( { id, label, percentage } ) {
     console.log(label);
     console.log(css[label]);
