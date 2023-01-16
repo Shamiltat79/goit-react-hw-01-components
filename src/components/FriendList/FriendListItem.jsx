@@ -10,7 +10,7 @@ function FriendListItem ({avatar, name, isOnline, id }) {
     
     
      <li className={css.item}key={id}>
-      {/* <p className={classNames(css.isOfline, { [css.isOnline]: isOnline })}></p> */}
+      
       <p className={classNames( isOnline ? css.isOnline : css.isOfline)}></p>
       
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
