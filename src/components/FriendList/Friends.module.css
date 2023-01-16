@@ -14,3 +14,16 @@
      border: 1.5px solid #5A5858;
      box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
 }
+
+.isOnline{
+    width: 15px;
+    height: 15px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.isOfline{ width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 15px;}

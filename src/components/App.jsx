@@ -1,7 +1,7 @@
 import Profile from 'components/Profile/Profile';
 
 import StatBoard from 'components/Statistics/StatBoard'
-import Friends from 'components/FriendList/Friends';
+import FriendList from 'components/FriendList/FriendList';
 import Transactions from 'components/TransactionHistory/Transaction';
 import user from 'components/DataObjects/user'
 import data from 'components/DataObjects/data.json';
@@ -27,7 +27,7 @@ export default function App() {
       items={data}
               
      />
-     <Friends
+     <FriendList
      friends={friends}
      />
 
