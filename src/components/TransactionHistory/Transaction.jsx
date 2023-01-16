@@ -10,18 +10,20 @@ function Transactions ({transactions}) {
       <th>Amount</th>
       <th>Currency</th>
     </tr>
-  </thead>      
+        </thead>   
+  <tbody className={css.tBody}>      
 {transactions.map(transaction => (
-    <tbody>
-    <tr key={transaction.id}>
+    
+    <tr className={ css.tr} key={transaction.id}>
       <td>{transaction.type}</td>
       <td>{transaction.amount}</td>
       <td>{transaction.currency}</td>
     </tr>
     
-  </tbody>
+  
 
-        ))}
+))}
+          </tbody>
   </table> 
     )
     

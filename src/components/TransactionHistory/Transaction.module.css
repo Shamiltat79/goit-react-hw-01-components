@@ -13,24 +13,26 @@ table caption{
     margin-left: auto;
     margin-right: auto;
     width: 1050px;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
 }
 table th{
-    background-color: #2DDCEF;
+    background-color: #572def;
 
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+    background-color: #fff;
   }
 
- tbody tr:nth-child(odd) {
+ /* .tr:nth-child(odd) {
     background-color:white;
     color: black;
-  }
+  } */
   
-  tbody tr:nth-child(even) {
-    background-color: #4442e6;
+  .tBody > .tr:nth-child(2n) {
+    background-color: #64646c;
     color: white;
   }
 td{ 
