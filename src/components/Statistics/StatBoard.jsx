@@ -24,7 +24,7 @@ items.map(({id, label, percentage}) => (
 
 }
 StatBoard.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     items: PropTypes.arrayOf(
         PropTypes.exact(
         { id: PropTypes.string.isRequired, 
